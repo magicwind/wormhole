@@ -40,9 +40,9 @@
         <module>common</module>
         <module>swifts</module>
         <module>reporter</module>
-        <module>flinkx</module>
-        <module>sparkextension/spark_extension_2_2</module>
-        <module>sparkextension/spark_extension_2_3</module>
+        <!-- <module>flinkx</module> -->
+        <!-- <module>sparkextension/spark_extension_2_2</module> -->
+        <!-- <module>sparkextension/spark_extension_2_3</module> -->
         <module>sparkextension/spark_extension_2_4</module>
         <module>sparkx</module>
         <!--<module>rider/common/haservice</module>-->
@@ -87,9 +87,11 @@
         <kudu.version>1.8.0</kudu.version>
         <clickhouse.version>0.1.54</clickhouse.version>
         <fastjson.version>1.2.58</fastjson.version>
-        <spark.extension.version>2.2</spark.extension.version>
-        <!--<json4s.version>3.5.3</json4s.version>-->
-        <json4s.version>3.2.11</json4s.version>
+        <hikariCP.version>3.3.1</hikariCP.version>
+        <hash.version>0.9</hash.version>
+        <spark.extension.version>2.4</spark.extension.version>
+        <json4s.version>3.5.3</json4s.version>
+        <!-- <json4s.version>3.2.11</json4s.version> -->
 
         <guava.version>19.0</guava.version>
         <sonar.core.codeCoveragePlugin>jacoco</sonar.core.codeCoveragePlugin>
